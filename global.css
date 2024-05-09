@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body: "Work Sans";
+  --display-2: "Yeseva One";
+
+  /* font sizes */
+  --body-size: 16px;
+  --body-2-size: 18px;
+  --small-size: 14px;
+  --display-2-size: 32px;
+  --font-size-lgi: 19px;
+  --title-size: 26px;
+
+  /* Colors */
+  --white: #fcfefe;
+  --black: #202124;
+  --primary: #1f2b6c;
+  --color-lightsteelblue-100: #bfd2f8;
+  --secondary: #159eec;
+  --color-cornflowerblue-100: rgba(21, 158, 236, 0.01);
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-xl: 20px;
+  --gap-lgi: 19px;
+  --gap-6xs-5: 6.5px;
+  --gap-5xs: 8px;
+  --gap-12xs: 1px;
+  --gap-2xs: 11px;
+  --gap-mid: 17px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-168xl: 187px;
+  --padding-74xl: 93px;
+  --padding-xl: 20px;
+  --padding-27xl: 46px;
+  --padding-19xl: 38px;
+  --padding-37xl: 56px;
+  --padding-lg: 18px;
+  --padding-31xl: 50px;
+  --padding-11xl: 30px;
+  --padding-3xl: 22px;
+  --padding-34xl: 53px;
+  --padding-12xs: 1px;
+  --padding-9xs: 4px;
+  --padding-mid: 17px;
+  --padding-base: 16px;
+  --padding-30xl: 49px;
+  --padding-23xl: 42px;
+  --padding-xs: 12px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-smi: 13px;
+  --padding-4xl: 23px;
+  --padding-16xl: 35px;
+  --padding-86xl: 105px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-31xl: 50px;
+}
