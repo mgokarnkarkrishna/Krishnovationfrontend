@@ -1,0 +1,133 @@
+.location-box {
+    width: 460px; /* Adjust width as needed */
+    max-width: 90%; /* Ensure it doesn't overflow on smaller screens */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .location-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .left-img-box {
+    width:600;
+    height:480;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-img img {
+    max-width: 650px;
+    height: auto;
+  }
+
+  .address {
+    margin-bottom: 10px;
+  }
+  
+  .gmap-link a {
+    color: blue;
+    text-decoration: underline;
+  }
+  .location-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .location-box {
+    flex-grow: 1; /* To fill remaining space */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  .location-box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .address {
+    margin-bottom: 10px;
+  }
+  
+  .gmap-link a {
+    color: blue;
+    text-decoration: underline;
+  }
+  .google-maps {
+
+    padding-bottom: 40 px;
+    
+  }
+  .contact-owner {
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .site-footer {
+    background-color: #1F2B6C;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.site-footer hr {
+    border-top-color: rgba(255, 255, 255, 0.2);
+}
+
+.copyright-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 19px ;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20 px;
+  color: var(--white);
+  font-family: var(--padding-5xl);
+}
+
+.copyright-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright-text a:hover {
+    text-decoration: underline;
+}
+.topmost1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 19px var(--padding-168xl) var(--padding-5xl);
+  z-index: 99;
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: var(--while);
+  font-family: var(--display-2);
+}

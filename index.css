@@ -1,73 +1,32 @@
 .home-child {
   width: 1002px;
-  height: 526px;
-  position: relative;
+  height: 326px;
+  position: left;
   border-radius: var(--br-8xs);
   background-color: #fafdfe;
   display: none;
-  max-width: 100%;
+  max-width: 80%;
   z-index: 0;
 }
-.input-filter-child {
-  top: 564.5px;
-  right: -1383px;
-  bottom: -564.5px;
-  left: 1383px;
-  background-color: #02ddcd;
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-}
-.input-filter,
-.input-filter-child,
-.input-filter-item {
-  height: 100%;
+
+
+.image-2-icon {
   width: 100%;
+  height: auto;
   position: absolute;
-}
-.input-filter-item {
-  top: 564.5px;
-  right: -1383px;
-  bottom: -564.5px;
-  left: 1383px;
-  background: linear-gradient(268.24deg, #e5e4e8 8.79%, rgba(235, 234, 239, 0));
-  transform: rotate(180deg);
-  transform-origin: 0 0;
-  z-index: 1;
-}
-.input-filter {
-  margin: 0 !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.toggle-with-label-child {
-  height: 564.5px;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  z-index: 2;
-}
-.image-2-icon,
-.toggle-with-label {
-  width: 1383px;
-  position: absolute;
-  margin: 0 !important;
+  margin: 0;
   top: 152px;
-  right: -17px;
+  
 }
-.toggle-with-label {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
+
+
 .image-2-icon {
   height: 584px;
   object-fit: cover;
   z-index: 3;
 }
+
+
 .home-item {
   align-self: stretch;
   position: relative;
@@ -78,17 +37,45 @@
   display: none;
   z-index: 3;
 }
-.topmost-child {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--white);
+
+/* .topmost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.home-parent {
+  display: flex;
+  align-items: center;
+}
+
+.home-parent a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.home-parent a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
 .meddical {
   margin: 0;
   position: relative;
@@ -101,6 +88,7 @@
   cursor: pointer;
   z-index: 1;
 }
+
 .div {
   position: absolute;
   top: 49.76%;
@@ -108,6 +96,7 @@
   font-weight: 500;
   white-space: nowrap;
 }
+
 .frame-child {
   position: absolute;
   height: 90.52%;
@@ -324,6 +313,8 @@
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
+
+  flex-wrap: wrap;
 }
 .navbar-inner {
   width: 495px;
@@ -364,11 +355,25 @@
   font-size: var(--body-size);
   color: var(--primary);
 }
+.frame-group2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  font-size: var(--body-size);
+  color: var(--primary);
+}
+.form-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Adjust to 'cover' or 'fill' as needed */
+}
 .navbar,
 .navbar-wrapper {
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .navbar {
   flex: 1;
   background-color: var(--primary);
@@ -480,6 +485,7 @@
   position: relative;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+  width: 100%;
 }
 .welcome-to-footcare-wrapper {
   align-self: stretch;
@@ -487,8 +493,11 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+  padding: 10 var(--padding-xl) 100 var(--padding-3xl);
 }
+
+
+
 .a-great-place {
   margin: 0;
   position: relative;
@@ -606,7 +615,7 @@
   width: 420px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
@@ -1258,6 +1267,7 @@
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
+  
 }
 .frame-parent3 {
   align-self: stretch;
@@ -1271,11 +1281,19 @@
 .rectangle-parent {
   box-sizing: border-box;
 }
+
+
+
+
 .rectangle-parent {
   flex: 1;
   background-color: var(--color-cornflowerblue-100);
   flex-direction: column;
   align-items: flex-end;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
   padding: 65px 198px var(--padding-12xs) 175px;
   gap: 56px;
 }
@@ -1283,6 +1301,7 @@
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
+  text-align: center;
   padding: 0 0 85px;
   text-align: center;
   font-size: var(--body-2-size);
@@ -1817,20 +1836,29 @@
 }
 .frame-parent9 {
   flex: 1;
-  align-items: flex-end;
+  align-items:  flex-start;
   padding: 64px var(--padding-168xl);
   position: relative;
   gap: 94px;
 }
-.formatting-formulator {
-  align-self: stretch;
-  align-items: flex-start;
-  padding: 0 0 75px;
-  text-align: left;
-  font-size: var(--display-2-size);
-  color: var(--secondary);
-  font-family: var(--display-2);
-}
+
+  .formatting-formulator {
+    align-self: stretch;
+    align-items: center;
+    padding: 0 0 75px;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+    font-size: var(--display-2-size);
+    color: var(--secondary);
+    font-family: var(--display-2);
+  }
+  
+  
+
+
+
+
+  
 .get-in-touch {
   position: relative;
   letter-spacing: 0.16em;
@@ -2405,6 +2433,7 @@
   z-index: 2;
   margin-top: -57px;
 }
+
 .database-access,
 .home {
   display: flex;
@@ -2451,6 +2480,9 @@
     box-sizing: border-box;
   }
 }
+
+
+
 @media screen and (max-width: 1050px) {
   .topmost {
     padding-left: var(--padding-74xl);
@@ -2503,9 +2535,7 @@
     padding-right: var(--padding-27xl);
     box-sizing: border-box;
   }
-  .home-parent {
-    flex-wrap: wrap;
-  }
+  
   .navbar {
     padding-left: var(--padding-86xl);
     padding-right: var(--padding-86xl);
