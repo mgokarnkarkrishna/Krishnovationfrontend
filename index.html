@@ -307,7 +307,7 @@
                 </div>
               </div>
             </div>
-            <button class="group-button" id="groupButton">
+            <button class="group-button" id="groupButton" onclick="redirectToDetailedPage()">
               <div class="frame-child9"></div>
               <div class="view-detailed">View Detailed</div>
             </button>
@@ -486,6 +486,10 @@
     window.open(googleFormUrl, '_blank', 'width=600,height=600');
   }
  
+  function redirectToDetailedPage() {
+    // Replace 'detailed-page.html' with the URL of your detailed page
+    window.location.href = 'services.html';
+  }
       </script>
   </body>
 </html>
